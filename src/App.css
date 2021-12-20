@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Space+Mono&display=swap');
+ * {
+   font-family: 'Roboto', sans-serif;
+   margin:0px;
+   padding: 0px;
+   box-sizing: border-box;
+   background-color: #181A20;
+   color: white;
+ }
+ .coin-app {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 60px;
+ }
+ .text {
+   margin-bottom: 20px;
+ }
+ .search {
+   margin-bottom: 64px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .text {
+   margin-bottom: 30px;
+   text-align: center;
+ }
+ .input {
+   width: 250px;
+   height: 40px;
+   background: linear-gradient(0deg, rgba(34,80,195,1) 0%, rgba(117,191,181,1) 38%, rgba(45,253,247,1) 100%);
+   border: none;
+   border-radius: 5px;
+  }
+  .input::placeholder {
+    color: white
+    
+  }
